@@ -19,7 +19,6 @@ source=(
   90-linux.hook             # pacman hook for initramfs regeneration
   linux.preset              # standard config files for mkinitcpio ramdisk
   add-acs-overrides.patch   # patch for acs overrides
-  tr.patch                  # thread ripper patch
 )
 validpgpkeys=(
   'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
@@ -30,8 +29,7 @@ sha256sums=('2e555646f47002c3e76e2a8405d33a64fcc8cf060ef5430881a5d144d8e3bc98'
             'ae2e95db94ef7176207c690224169594d49445e04249d2499e9d2fbc117a0b21'
             'c043f3033bb781e2688794a59f6d1f7ed49ef9b13eb77ff9a425df33a244a636'
             'ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65'
-            'dbf4ac4b873ce6972e63b78d74ddba18f2701716163bb7f4b4fe5e909346a6e1'
-            'f5f10a01e7e1479069d920b35500767da9bcc6f5ff464e20c5bb1a0079921806')
+            'dbf4ac4b873ce6972e63b78d74ddba18f2701716163bb7f4b4fe5e909346a6e1')
 
 _kernelname=${pkgbase#linux}
 : ${_kernelname:=-ARCH}
