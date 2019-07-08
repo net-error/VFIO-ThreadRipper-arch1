@@ -2,7 +2,7 @@
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
-pkgbase=linux-vfio-threadripper-robs               # Build stock -ARCH kernel
+pkgbase=linux-vfio-threadripper-amd               # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
 _srcver=5.1.16-arch1
 pkgver=${_srcver//-/.}
